@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact_Form</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <form id="my-form"action="https://formspree.io/f/xoqbpoyg" method="POST">
+                <div class="header">
+                    <h2>
+                        Contact Form
+                    </h2>
+                </div>
+                <div class="fields">
+                <div class="field1">
+                    <div class="field f-1">
+                        <input type="text" name="FirstName" placeholder="First Name" required/>
+                    </div>
+                    <div class="field f-1">
+                        
+                        <input type="text" name="LastName" placeholder="Last Name" required/>
+                    </div>
+                </div>
+                <div class="field2">
+                    <div class="field f-2">
+                        <input type="email" name="Email" placeholder="Email" required/>
+                    </div>
+                    <div class="field f-2">
+                        <input type="number" name="Phone" placeholder="Phone" required/>
+                    </div>
+			
+                </div>
+				
+				<div class="field1">
+                    <div class="field f-1">
+                        <input type="DATE OF BIRTH" name="DATE OF BIRTH" placeholder="DATE OF BIRTH" required/>
+                    </div>
+                    <div class="field f-1">
+                        <input type="TIME OF BIRTH" name="TIME OF BIRTH" placeholder="TIME OF BIRTH" required/>
+                    </div>
+					
+					    <div class="field f-1">
+                        <input type="PLACE OF BIRTH" name="PLACE OF BIRTH" placeholder="PLACE OF BIRTH" required/>
+                    </div>
+			
+                </div>
+				
+				
+				
+            </div>
+                <div class="message">
+                    <input type="textarea" name="Message" placeholder="Type your message here" required/>
+                    
+                </div>
+                <button>
+                    Submit
+                </button>
+            </form>
+            <p id="my-form-status"></p>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
